@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tab tab-1">
+            <table id="table" border="1">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Employee ID</th>
+                    <th>Contact No.</th>
+                </tr>
+                <tr>
+                    <td>Shubham</td>
+                    <td>Singh</td>
+                    <td>54193</td>
+                    <td>7007813529</td>
+                </tr>
+                <tr>
+                    <td>Sai</td>
+                    <td>Teja</td>
+                    <td>54194</td>
+                    <td>8947813529</td>
+                </tr>
+                <tr>
+                    <td>Pankaj</td>
+                    <td>Sharma</td>
+                    <td>54195</td>
+                    <td>9537814565</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="tab tab-2">
+            First Name : <input type="text" name="fname" id="fname">
+            Last Name  : <input type="text" name="lname" id="lname">
+            Employee ID: <input type="number" name="employee id" id="employee_id">
+            Contact No.: <input type="number" name="Contact No" id="contact_no">
+            
+            <!-- onclick="addnewRow();" -->
+            <button id="addrow" >Add</button>
+            <button id="editrow">Edit</button>
+            <button id="removerow">Remove</button>
+
+        </div>
+
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

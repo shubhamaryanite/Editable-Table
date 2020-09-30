@@ -1,0 +1,45 @@
+.container{
+    overflow:hidden;
+}
+
+
+
+.tab{
+    float:left;
+}
+
+.tab-2 input{
+    display:block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.tab-2{
+    margin-left: 50px;
+}
+
+tr{
+    transition:all .25s ease-in-out
+}
+
+tr:hover{
+    background-color:rgb(53, 219, 103);
+    cursor: pointer
+}
+
+table, td, th {
+    border: 2px solid rgb(179, 171, 171);
+}
+  
+table {
+    /* border-collapse: collapse; */
+    width: 100%;
+    
+}
+
+th {
+    height: 50px;
+    width: 100px;
+}
+
